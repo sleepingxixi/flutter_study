@@ -2,13 +2,14 @@
  * @Author: Li Ping
  * @Date: 2021-01-03 16:06:39
  * @LastEditors: Li Ping
- * @LastEditTime: 2021-01-03 23:20:12
+ * @LastEditTime: 2021-01-04 21:08:39
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/study/day1.dart';
 import 'package:flutter_application_1/study/day2.dart';
 import 'package:flutter_application_1/study/day3.dart';
 import 'package:flutter_application_1/study/day4.dart';
+import 'package:flutter_application_1/study/day5.dart';
 
 void main() {
   runApp(MyApp());
@@ -90,7 +91,8 @@ class _MyHomePageState extends State<MyHomePage> {
       // body: Day1(),
       // body: Day2(),
       // body: Day3(),
-      body: Day4(),
+      // body: Day4(),
+      body: Day5(),
     );
   }
 }
